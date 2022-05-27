@@ -2,6 +2,8 @@
   margin: 0;
 }
 
+/* Main Elements */ 
+
 body {
   color: #444;
   font-family: sans-serif;
@@ -27,7 +29,7 @@ nav {
 
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 article {
@@ -47,6 +49,8 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
+/* Smaller Elements */
 
 h1,
 h2,
@@ -183,6 +187,26 @@ a:active {
   /* only if set in html */
   height: auto;
 }
+
+nav a:link {
+  /* background-color: purple;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* remove last elements padding to make an even spread amongst all elements */
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+
+
 
 /* Resolving Conflicts */
 
