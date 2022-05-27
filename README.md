@@ -133,6 +133,7 @@ article header p {
 ### IDs
 
 **can only use ID names once**
+
 **not common to use**
 
 - `<p id="author">` on html element
@@ -157,5 +158,84 @@ _usage_
 .related-author {
   font-size: 18px;
   font-weight: bold;
+}
+```
+
+### Colors
+
+- RGB
+- values between `0` - `255`
+
+_all values at `0` are black_
+
+### Borders and multiple paramets
+
+```css
+aside {
+  border: 5px solid #1098ad;
+  /* width - style - color */
+
+  border-top: 5px solid #1098ad;
+  /* will only style top */
+}
+```
+
+### Pseduo Class
+
+- `li:`
+
+```css
+li:first-child {
+  font-weight: bold;
+}
+```
+
+**specifiy which child**
+
+```css
+li:nth-child(2) {
+  color: red;
+}
+```
+
+_all odd/ even elements_
+
+- odd
+- even
+
+```css
+li:nth-child(odd) {
+  color: red;
+}
+```
+
+### Styling links
+
+- use pseudo links to get access to all states of anchors
+- must be in below order
+
+```css
+a:link {
+  color: #1098ad;
+  text-decoration: none; /* remove underline */
+}
+
+a:visited {
+  /* display differently if clicked */
+  /* color: gray; */
+  color: #1098ad;
+}
+
+/* State of element  */
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
 ```
