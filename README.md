@@ -382,3 +382,16 @@ _all our optional_
 
 ## Types of Boxes
 
+#### block level elements
+* formatted visually as blocks
+* occupy 100% of parent element width, no matter the content
+* stacked vertically by default, one after another
+
+#### inline elements
+* occupies only the space neccessary
+* no line-breaks
+* heights and widths dont apply
+* padding and margins applied ONLY horizontally (left and right)
+
+`display: inline`
+
