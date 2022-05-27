@@ -254,7 +254,7 @@ a:active {
 5. Element selector
 6. Universal selector `*`
 
-#### Resolving Conflicts
+### Resolving Conflicts
 
 ```css
 /* (1,0,0) */
@@ -287,3 +287,35 @@ footer p {
   color: blue !important;
 }
 ```
+
+## Inheritance
+
+- not all properties get inherited
+- mostly ones related to text
+
+**Elements**
+
+- `body`
+-
+
+```css
+body {
+  color: #444;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+```
+
+_overriding_
+
+```css
+h1 {
+  font-size: 26px;
+}
+```
+
+## Universal Selector
+
+- `*`
+- will apply changes to ALL elements
+- lowest priority/ easily override
