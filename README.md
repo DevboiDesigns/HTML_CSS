@@ -328,7 +328,7 @@ _all our optional_
 - `Margin` - empty space between the elements, outside of each element
 - `Fill Area` - area that gets filled with background color or background image
 
-## short hand
+## Short Hand
 
 ```css
 .main-header {
@@ -403,5 +403,77 @@ _all our optional_
 * looks like inline from the outside, behaves like block level on the inside
 * occupies only contents space
 * causes no line breaks
+
+## Absolute Positioning
+1. Normal Flow
+  
+`position: relative` 
+
+2. Absolute 
+
+`position: absolute`
+
+* out of flow
+* no impact on surrounding elements, might overlap
+* top, bottom, left, right to offset element from its relatively positioned container
+
+**Container Element**
+```css
+body {
+  position: relative;
+}
+```
+
+**Element**
+```css
+button {
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+```
+
+## Pseudo Elements
+* dont excist in HTML, but still can select and style in CSS
+
+```css
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+```
+
+```css
+p::first-line {
+  color: red;
+}
+```
+
+**Adjacent Selector**
+
+* `+` to access adjacent element
+
+```css
+h3 + p::first-line {
+  color: red;
+}
+```
+
+**Adds element to page without html**
+
+```css
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+```
 
 
