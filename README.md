@@ -295,7 +295,6 @@ footer p {
 **Elements**
 
 - `body`
--
 
 ```css
 body {
@@ -317,4 +316,65 @@ h1 {
 
 - `*`
 - will apply changes to ALL elements
-- lowest priority/ easily override
+- lowest priority/ easily overriden
+
+## Box Model
+
+_all our optional_
+
+- `Content` - text, images, etc
+- `Border` - a line around the element, still inside of the element
+- `Padding` - empty space around content, inside of elements
+- `Margin` - empty space between the elements, outside of each element
+- `Fill Area` - area that gets filled with background color or background image
+
+## short hand
+
+```css
+.main-header {
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+```
+
+**becomes**
+
+- 1 parameter is top/ bottom - 2 is left/ right
+
+```css
+.main-header {
+  padding: 20px 40px;
+}
+```
+
+## Reset Defaults
+
+**easier to style without defaults**
+
+```css
+* {
+  margin: 0;
+}
+```
+
+### Center entire page
+
+1. div container around entire body 
+
+```css
+ <body>
+   <div class="container">
+   /* content */
+   </div>
+</body>
+ ```
+
+2. style sheet 
+
+```css
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+```

@@ -1,9 +1,51 @@
 * {
+  margin: 0;
 }
 
 body {
   color: #444;
   font-family: sans-serif;
+
+  border-top: 10px solid #1098ad;
+}
+
+/* center everything  */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  font-size: 22px;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* width - style - color*/
+
+  padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -20,10 +62,12 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -35,17 +79,22 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  /* width - style - color*/
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* footer p {
@@ -76,30 +125,26 @@ article header p {
   font-weight: bold;
 }
 
-.main-header {
-  background-color: #f7f7f7;
-}
-
 /* .first-li {
   font-weight: bold;
 } */
 
-li:first-child {
+/* li:first-child {
   font-weight: bold;
-}
+} */
 
-li:last-child {
+/* li:last-child {
   font-style: italic;
-}
+} */
 
 /* li:nth-child(2) {
   color: red;
 } */
 
 /* this wont work */
-article p:first-child {
+/* article p:first-child {
   color: red;
-}
+} */
 
 /* Styling links
 
@@ -123,14 +168,20 @@ a:visited {
 /* State of element  */
 
 a:hover {
-  color: orangered;
+  color: purple;
   font-weight: bold;
-  text-decoration: underline orangered;
+  text-decoration: underline purple;
 }
 
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  /* only if set in html */
+  height: auto;
 }
 
 /* Resolving Conflicts */
@@ -160,7 +211,3 @@ a:active {
 /* nav a:link, nav p {
   font-size: 22px;
 } */
-
-nav {
-  font-size: 22px;
-}
