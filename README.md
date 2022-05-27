@@ -85,6 +85,8 @@ _can nest within another_
 
 **Style Sheet**
 
+_Element Selector_
+
 ```css
 h1 {
   color: purple;
@@ -213,6 +215,7 @@ li:nth-child(odd) {
 
 - use pseudo links to get access to all states of anchors
 - must be in below order
+- state of element
 
 ```css
 a:link {
@@ -226,8 +229,6 @@ a:visited {
   color: #1098ad;
 }
 
-/* State of element  */
-
 a:hover {
   color: orangered;
   font-weight: bold;
@@ -237,5 +238,52 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+```
+
+## Priority Among Selectors
+
+**Order of priority and what code will be applied**
+
+0. `!important` - resolve confict/ not encouraged
+1. Inline Style
+
+2. IDs
+3. last ID
+4. Class or Pseudo class
+5. Element selector
+6. Universal selector `*`
+
+#### Resolving Conflicts
+
+```css
+/* (1,0,0) */
+#copyright {
+  color: red;
+}
+
+/* (0,1,0) */
+.copyright {
+  color: yellow;
+}
+
+/* (0,1,0) */
+.text {
+  color: green;
+}
+
+/* (0,0,2) */
+footer p {
+  color: blue;
+}
+```
+
+**imporant keyword**
+
+_hack you should not use_
+
+```css
+footer p {
+  color: blue !important;
 }
 ```

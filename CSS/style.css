@@ -134,3 +134,25 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/* Resolving Conflicts */
+
+/* (1,0,0)
+#copyright {
+  color: red;
+}
+
+/* (0,1,0) */
+/* .copyright {
+  color: yellow;
+} */
+
+/* (0,1,0) */
+/* .text {
+  color: green;
+} */
+
+/* (0,0,2) */
+/* footer p {
+  color: blue !important;
+}  */
