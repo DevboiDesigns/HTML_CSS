@@ -75,9 +75,87 @@ _can nest within another_
 # CSS
 
 - style and layout for html
+- `highlight + cmd + /` - auto comment out
 
 **In head**
 
 ```html
 <link rel="stylesheet" href="./style.css" />
+```
+
+**Style Sheet**
+
+```css
+h1 {
+  color: purple;
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+```
+
+**combinig selectors**
+
+```css
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+```
+
+**child elements**
+
+**decendent selector**
+
+_will select child element of footer_
+
+```css
+footer p {
+  font-size: 16px;
+}
+```
+
+_nested elements_
+
+```css
+article header p {
+  font-style: italic;
+}
+```
+
+## Classes & ID Selectors
+
+### IDs
+
+**can only use ID names once**
+**not common to use**
+
+- `<p id="author">` on html element
+
+_usage_
+
+```css
+#author {
+  font-style: italic;
+}
+```
+
+### Classes
+
+**more common to uses classes than IDs**
+
+- `<p class="related-author">` on html element
+
+_usage_
+
+```css
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
 ```
