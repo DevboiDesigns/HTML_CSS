@@ -246,8 +246,7 @@ a:active {
 **Order of priority and what code will be applied**
 
 0. `!important` - resolve confict/ not encouraged
-1. Inline Style
-
+1. Inline Style - _dont use_
 2. IDs
 3. last ID
 4. Class or Pseudo class
