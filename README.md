@@ -378,3 +378,7 @@ _all our optional_
   margin: 0 auto;
 }
 ```
+
+
+## Types of Boxes
+
