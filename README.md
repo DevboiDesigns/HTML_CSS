@@ -61,8 +61,13 @@ _can nest within another_
 - `<header>` - group Top part of page together - with nav normally
 - `<article>` - sub elements
 - `<div>` - most generic container - when has no meaning
+- `<aside>` - secondary info that complaments main info
 - `<footer>` - bottom of page
 
 #### html entities
 
 - `&copy;` etc - preface with `&`
+
+### helfpul stuff
+
+- live server extension
