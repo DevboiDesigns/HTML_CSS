@@ -75,3 +75,9 @@ _can nest within another_
 # CSS
 
 - style and layout for html
+
+**In head**
+
+```html
+<link rel="stylesheet" href="./style.css" />
+```
