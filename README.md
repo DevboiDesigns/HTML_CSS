@@ -3,6 +3,10 @@
 - `index.html` - first page
 - `! + Enter` - template doc
 
+
+- [Validate HTML for Bugs](https://validator.w3.org)
+- [Compare Code Checker](https://www.diffchecker.com)
+
 ## code snippets
 
 _comment_
