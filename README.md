@@ -71,3 +71,7 @@ _can nest within another_
 ### helfpul stuff
 
 - live server extension
+
+# CSS
+
+- style and layout for html
