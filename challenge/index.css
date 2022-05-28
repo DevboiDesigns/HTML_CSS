@@ -7,44 +7,79 @@ body {
 }
 
 .container {
-  width: 60%;
-  margin: 0 auto;
+ width: 60%;
+    margin: 0 auto;
   border: 3px solid black;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .title {
   font-size: 18px;
   background-color: rgb(211, 211, 211);
-  align-content: center;
-  padding: 10px 0;
+  padding: 20px 0;
   text-transform: uppercase;
   text-align: center;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  gap: 25px;
+}
+
+.el {
+  flex: 0 1 700px;
+}
+
+.el--1 {
+  /* flex: 1 0 250px; */
+}
+
+.el--2 {
+
+}
+
+.el--3 {
+ 
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 h2 {
-  margin-bottom: 2px;
+  /* margin-bottom: 2px; */
 }
 
 h5 {
   text-transform: uppercase;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
 }
 
 p {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 
 .img {
-  width: 200px;
-  margin-bottom: 10px;
+  width: 250px;
+  /* margin-bottom: 10px; */
+  margin-bottom: 0;
 }
 
 .shipping {
   font-size: 12px;
   color: gray;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   text-transform: uppercase;
 }
 
@@ -52,14 +87,18 @@ p {
   margin-bottom: 10px;
 }
 
+.link {
+
+}
+
 ul {
-  margin-bottom: 20px;
-  margin-left: 20px;
-  padding-left: 0;
+  /* margin-bottom: 20px;
+  margin-left: 20px; */
+  /* padding-left: 0; */
 }
 
 li {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 button {
@@ -68,8 +107,9 @@ button {
   background-color: black;
   color: white;
   border: none;
-  height: 40px;
+  padding: 20px;
   text-transform: uppercase;
+ 
 }
 
 button:hover {
@@ -93,6 +133,3 @@ a:hover {
   text-decoration: none;
 }
 
-.link {
-  margin-bottom: 10px;
-}
