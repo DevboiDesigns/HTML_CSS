@@ -589,6 +589,7 @@ h2::after {
 
 
 # Web Design Rules
+[Design Rules](all-design-guidelines.pdf)
 
 ## Typography
 * [Type Scale Tool](https://type-scale.com)
@@ -692,3 +693,56 @@ FONT SIZE SYSTEM (px)
 
 ## Playful/ Fun
 * colorful and round designs, fueled by creative elements like hand-drawn icons or illustrations, animations, and fun language
+
+
+
+# Elements & Components
+[Complete List](theory-lectures-v2-BEST.pdf) *page 263*
+* Elements -> Components -> Layouts -> Webpage
+* use common elements and components to convey your website's information
+* combine components into layouts using common layout patterns
+* assemble different layout areas into a complete, final page 
+  
+1. Elements
+  - Text
+  - Buttons
+  - Images
+  - Input Elements
+  - Tags
+
+2. Components
+   - Breadcrumbs
+   - Pagination
+   - Alert and status bars
+   - Statistics
+   - Gallery
+   - Feature Box
+   - Preview and profile cards
+   - Accordion
+   - Tabs
+   - Carousel
+   - Customer testimonals
+   - Customer logos
+   - Featured-in logos
+   - Steps
+   - Forms
+   - Tables
+   - Pricing tables
+   - Modal windows
+
+3. Section Components
+   - Navigation 
+   - Hero Section 
+   - Footer
+   - Call-to-action section
+   - Feature row
+
+4. Layout Patterns
+   - Row of boxes or cards
+   - Grid of boxes or cards
+   - Z-pattern
+   - F-pattern
+   - Single Column
+   - Sidebar
+   - Multi-column/ magazine
+   - Asymmetry/ Experimental
