@@ -481,6 +481,8 @@ h2::after {
 ```
 ## Layout
 
+* `display: none;` - hide from view 
+
 ### Float Layouts 
 
 **older method**
@@ -511,14 +513,73 @@ h2::after {
 
 #### Flex Items
 
-* `align-self: auto` | `stretch` | `flex-start` | `flex-end` | `flex-end` | `center` | `baseline` = *overwrite* align-items for individual flex items
-* `flex-grow: 0` | <lengeth> = allow an element to grow (0 means no, 1+ means yes)
-* `flex-shrink: 1` | <integer> = allow an element to shrink (0 means no, 1+ means yes)
-* `flex-basis: auto` | <length> = to define an items width, instead of the width property
-* `flex: 0 1 auto` | <int> <int> <len> = *Recomended* shorthand for `flex-grow`, `-shrink`, `-basis`
-* `order: 0` | <integer> = controls order of items, -1 makes them first, 1 makes it last 
+* `align-self: auto` | `stretch` | `flex-start` | `flex-end` | `center` | `baseline` = *overwrite* align-items for individual flex items
+* `flex-grow: 0` | lengeth = allow an element to grow (0 means no, 1+ means yes)
+* `flex-shrink: 1` | integer = allow an element to shrink (0 means no, 1+ means yes)
+* `flex-basis: auto` | length = to define an items width, instead of the width property
+* `flex: 0 1 auto` | int, int, len = *Recomended* shorthand for `flex-grow`, `-shrink`, `-basis`
+* `order: 0` | integer = controls order of items, -1 makes them first, 1 makes it last 
 
 
 ### CSS Grid 
+* css properties for 2D layouts
+* divide container elements into rows and columns that can be filled with child elements
+* 2D contexts, write less nested HTML and easier to read CSS
+* works perfectly with flexbox, 1D flexbox / 2D css grid
 
+[Code Snippets](./Layouts/css-grid.html)
 
+#### Terminology
+* `display: grid`
+* grid container
+* grid items
+* row axis -> 
+* column axis (down)
+* grid lines 
+* grid cell - not always seen or used 
+* gutters or gaps 
+* grid track (row/ column)
+
+**usage**
+
+*basics*
+
+```css 
+ .container--1 {
+        /* CSS GRID */
+        display: grid;
+        grid-template-columns: 200px 200px 100px 100px;
+        grid-template-rows: 300px 200px;
+
+        /* gap: 30px; */
+        column-gap: 30px;
+        row-gap: 60px;
+      }
+```
+
+#### Grid Container
+**Establish the grid row and column tracks. One length unit for each track. Any unit can be used, new `fr` fills unusued space**
+* `grid-template-rows: 'track size'`
+* `grid-template-columns: 'track-size'`
+
+**To Create empty space between tracks**
+* `row-gap: 0` length
+* `column-gap: 0`length 
+* `gap: 0`
+  
+**To align items inside rows/ columns (horizontally/ vertically)**
+* `justify-items: stretch` | `start` | `center` | `end`
+* `align-items: stretch` | `start` | `center` | `end`
+
+**To align entire grid inside grid container. Only applies if container is larger than the grid**
+* `justify-content: start` | `start` | `center` | `end`
+* `align-content: start` | `start` | `center` | `end`
+
+#### Grid Items
+**To place a grid item into a specific cell, based on line numbers. span keyword can be used to span an item across more cells**
+* `grid-column: 'start-line' / 'end-line'`
+* `grid-row: 'start-line' / 'end-line'`
+
+**To overwrite justify-items / align-items for single items**
+* `justify-content: stretch` | `start` | `center` | `end`
+* `align-self: stretch` | `start` | `center` | `end`
