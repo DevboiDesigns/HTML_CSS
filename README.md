@@ -479,5 +479,46 @@ h2::after {
   right: -25px;
 }
 ```
+## Layout
+
+### Float Layouts 
+
+**older method**
+
+### Flex Box 
+* set of related CSS properties
+* empty space inside a container can be automatically divided by its child
+* easy to align items to one another
+* vertical centering - equal height columns
+
+[Code Snippets](./Layouts/flexbox.html)
+
+1. Flex container
+2. `display: flex`
+3. Flex items
+   
+* Main Axis ->
+* Cross Axis (down)
+
+#### Flex Container**
+
+* `gap: 0` - length
+* `justify-content: flex-start` | `center` | `space-between` | `space-around` | `space-evenly` = aligns on the *main axis* (horizontal by default)
+* `align-items: stretch` | `flex-start` | `flex-end` | `center` | `baseline` = to align on the *cross axis* (vertical by default)
+* `flex-direction: row` | `row-reverse` | `column` | `column-reverse` = to define which is the main axis 
+* `flex-wrap: nowrap` | `wrap` | `wrap-reverse` = allow items to wrap into a new line
+* `align-content: stretch` | `flex-start` | `flex-end` | `center` | `space-between` | `space-around` = *only applies when there are multiple lines* (`flex-wrap: wrap`) 
+
+#### Flex Items
+
+* `align-self: auto` | `stretch` | `flex-start` | `flex-end` | `flex-end` | `center` | `baseline` = *overwrite* align-items for individual flex items
+* `flex-grow: 0` | <lengeth> = allow an element to grow (0 means no, 1+ means yes)
+* `flex-shrink: 1` | <integer> = allow an element to shrink (0 means no, 1+ means yes)
+* `flex-basis: auto` | <length> = to define an items width, instead of the width property
+* `flex: 0 1 auto` | <int> <int> <len> = *Recomended* shorthand for `flex-grow`, `-shrink`, `-basis`
+* `order: 0` | <integer> = controls order of items, -1 makes them first, 1 makes it last 
+
+
+### CSS Grid 
 
 
