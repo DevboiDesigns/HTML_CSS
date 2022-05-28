@@ -696,8 +696,7 @@ FONT SIZE SYSTEM (px)
 
 
 
-# Elements & Components
-[Complete List](theory-lectures-v2-BEST.pdf) *page 263*
+# Elements & Components 
 * Elements -> Components -> Layouts -> Webpage
 * use common elements and components to convey your website's information
 * combine components into layouts using common layout patterns
