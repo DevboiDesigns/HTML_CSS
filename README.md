@@ -505,7 +505,7 @@ h2::after {
 * Main Axis ->
 * Cross Axis (down)
 
-#### Flex Container**
+#### Flex Container
 
 * `gap: 0` - length
 * `justify-content: flex-start` | `center` | `space-between` | `space-around` | `space-evenly` = aligns on the *main axis* (horizontal by default)
@@ -590,3 +590,91 @@ h2::after {
 
 # Web Design Rules
 
+## Typography
+* [Google Fonts](https://fonts.google.com)
+* use only popular/ good
+* ok to use only one typeface per site
+* choose accordingly to site
+
+
+  ### serif 
+  * tails at end of lines
+  * creates a traditional/ classic look and feel
+  * conveys trustworthiness
+  * good for long text
+
+  *examples*
+  * merriweather
+  * aleo
+  * playfair display
+  * cormorant
+  * cardo
+  * lora
+
+  ### sans-serif 
+  * clean and simple (no tails)
+  * modern look and feel
+  * easier to choose for beginner
+
+  *examples*
+  * inter
+  * open sans
+  * roboto
+  * montserrat
+  * work sans
+  * lato
+
+### Size
+* normal text - `16px-32px`
+* long text/ blog post - `20px-or bigger`
+* headlines - `50px+` and `bold-600px+`
+* for any text - DONT use a font weight under 400 (regular)
+
+### Tips/ Tricks
+* use less than 75 characters per line (width)
+* normal text line height `1.5-2` Big text - `below 1.5`
+* the smaller or longer the text, the *Larger* the line height needs to be
+* if looks unnatural - decrease letter spacing
+* experiment with all caps for short titles, make small and bold and increase letter spacing
+* usually dont justify text - dont center side to side (better to align to left)
+
+## Colors
+
+## Images/ Illustrations
+
+## Icons
+
+## Shadows
+
+## Border-radius
+
+## Whitespace
+
+## Visual Hierarchy
+
+## User Experience
+
+## Components/ Layout
+
+# Website Personalities 
+
+## Serious/ Elegant
+* for luxury and elegance, based on thin serif typefaces, golden or pastel colors, and big high quality images
+
+## Minimalist/ Simple
+* focuses on the essential text content, using small or medium sized sans-serif black text, lines, and few images and icons
+
+## Plain/ Neutral
+* design that gets out of the way by using neutral and small typefaces, and a very strutured layout. Common in big corporations
+
+## Bold/ Confident
+* makes an impact, by featuring big and bold typography, paired with confident use of big and bright colored blocks
+
+## Calm/ Peacful
+* for products and services that care, transmitted by calming pastel colors, soft serif headings, and  matching images/ illustrations
+
+## Startup/ Upbeat
+* widely used in startups, featuring medium-sized sans-serif typefaces, light-grey text and backgrounds, and rounded elements
+
+## Playful/ Fun
+* colorful and round designs, fueled by creative elements like hand-drawn icons or illustrations, animations, and fun language
