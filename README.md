@@ -591,6 +591,7 @@ h2::after {
 # Web Design Rules
 
 ## Typography
+* [Type Scale Tool](https://type-scale.com)
 * [Google Fonts](https://fonts.google.com)
 * use only popular/ good
 * ok to use only one typeface per site
@@ -637,6 +638,19 @@ h2::after {
 * if looks unnatural - decrease letter spacing
 * experiment with all caps for short titles, make small and bold and increase letter spacing
 * usually dont justify text - dont center side to side (better to align to left)
+
+
+### Scale Tool
+
+```css
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+```
 
 ## Colors
 
