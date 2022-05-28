@@ -38,6 +38,8 @@ _comment_
 />
 ```
 
+* `<blockquote>` - qoute syntax
+
 ### links
 
 **link to other websites**
@@ -70,7 +72,8 @@ _can nest within another_
 
 #### html entities
 
-- `&copy;` etc - preface with `&`
+- `&copy;` etc - preface with `&` = copyright symbol
+- `&mdash` = dash line `-`
 
 ### helfpul stuff
 
@@ -583,3 +586,7 @@ h2::after {
 **To overwrite justify-items / align-items for single items**
 * `justify-content: stretch` | `start` | `center` | `end`
 * `align-self: stretch` | `start` | `center` | `end`
+
+
+# Web Design Rules
+
