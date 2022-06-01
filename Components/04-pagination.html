@@ -39,7 +39,7 @@
         justify-content: center;
       }
 
-      span {
+      .dots {
         color: #868e96;
       }
 
@@ -93,8 +93,8 @@
         stroke: #087f5b;
       }
 
-      a:link,
-      a:visited {
+      .page-link:link,
+      .page-link:visited {
         font-size: 18px;
         color: #343a40;
         text-decoration: none;
@@ -108,10 +108,10 @@
         /* background-color: red; */
       }
 
-      a:hover,
-      a:active,
+      .page-link:hover,
+      .page-link:active,
       /* End Selector to override init class settings */
-      .active-page.active-page {
+      .page-link.page-link--current {
         color: #fff;
         background-color: #087f5b;
       }
@@ -137,14 +137,14 @@
       </button>
 
       <div class="numbers">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#" class="active-page">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <span>...</span>
-        <a href="#">23</a>
+        <a href="#" class="page-link">1</a>
+        <a href="#" class="page-link">2</a>
+        <a href="#" class="page-link page-link--current">3</a>
+        <a href="#" class="page-link">4</a>
+        <a href="#" class="page-link">5</a>
+        <a href="#" class="page-link">6</a>
+        <span class="dots">...</span>
+        <a href="#" class="page-link">23</a>
       </div>
 
       <button class="btn btn--right">
