@@ -20,6 +20,12 @@ _comment_
 - `<p>` - paragraph
 - `<strong>` - bold
 - `<em>` - italize
+- `<table>` - `<tr>` - `<td>` - table
+- `<thead>` - table head
+- `<tbody>` - table body
+- `<th>` - table row header
+      
+    
 
 ### lists
 
@@ -750,15 +756,15 @@ FONT SIZE SYSTEM (px)
    - Gallery
    - Feature Box
    - Preview and profile cards
-   - Accordion
+   - Accordion - [Element](/Components/01-accordion.html)
    - Tabs
-   - Carousel
+   - Carousel [Element](./Components/02-carousel.html)
    - Customer testimonals
    - Customer logos
    - Featured-in logos
    - Steps
    - Forms
-   - Tables
+   - Tables [Element](./Components/03-table.html)
    - Pricing tables
    - Modal windows
 
