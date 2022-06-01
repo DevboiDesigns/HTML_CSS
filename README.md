@@ -79,6 +79,17 @@ _can nest within another_
 
 - live server extension
 
+# Fonts 
+
+* add fonts to head sectio in `link`
+
+```html
+ <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@100&display=swap"
+      rel="stylesheet"
+    />
+```
+
 # CSS
 
 - style and layout for html
@@ -639,6 +650,7 @@ h2::after {
 * if looks unnatural - decrease letter spacing
 * experiment with all caps for short titles, make small and bold and increase letter spacing
 * usually dont justify text - dont center side to side (better to align to left)
+* `Lorem` typing this will generate random text 
 
 
 ### Scale Tool
@@ -655,9 +667,24 @@ FONT SIZE SYSTEM (px)
 
 ## Colors
 
+* [Open Colors](https://yeun.github.io/open-color/)
+* open source color pallet for UI 
+
 ## Images/ Illustrations
 
 ## Icons
+
+* [Hero Icons](https://heroicons.com)
+* designed ideal at `width: 24px;`
+
+
+**add as html element**
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+</svg>
+```
 
 ## Shadows
 
