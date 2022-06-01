@@ -9,6 +9,8 @@
 
 ## code snippets
 
+* `&nbsp;` - space for desining/ placeholder
+
 _comment_
 `< + ! + --`
 
@@ -533,6 +535,10 @@ h2::after {
 * `flex-basis: auto` | length = to define an items width, instead of the width property
 * `flex: 0 1 auto` | int, int, len = *Recomended* shorthand for `flex-grow`, `-shrink`, `-basis`
 * `order: 0` | integer = controls order of items, -1 makes them first, 1 makes it last 
+
+**Extra**
+* `left: 0` - to align left 
+* `right: 0` - to align right 
 
 
 ### CSS Grid 
