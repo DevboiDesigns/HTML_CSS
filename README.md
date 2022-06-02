@@ -24,6 +24,20 @@ _comment_
 - `<thead>` - table head
 - `<tbody>` - table body
 - `<th>` - table row header
+
+```html
+<body>
+    <header>
+      <nav>
+        <div>LOGO</div>
+        <div>Navigation</div>
+      </nav>
+    </header>
+    <section>
+
+    </section>
+  </body>
+```
       
     
 
@@ -86,6 +100,11 @@ _can nest within another_
 ### helfpul stuff
 
 - live server extension
+
+### Units of measurment
+* px - pixels
+* vh - viewport height e.g. `100vh` = 100% of viewport height
+* % - percentage of parent element
 
 # Fonts 
 
@@ -619,8 +638,7 @@ h2::after {
 * [Google Fonts](https://fonts.google.com)
 * use only popular/ good
 * ok to use only one typeface per site
-* choose accordingly to site
-
+* choose accordingly to **site
 
   ### serif 
   * tails at end of lines
@@ -654,6 +672,11 @@ h2::after {
 * long text/ blog post - `20px-or bigger`
 * headlines - `50px+` and `bold-600px+`
 * for any text - DONT use a font weight under 400 (regular)
+
+### Font-weight
+* 400 - regular
+* 500 - medium
+* 700 - bold 
 
 ### Tips/ Tricks
 * use less than 75 characters per line (width)
