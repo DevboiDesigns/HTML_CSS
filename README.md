@@ -6,6 +6,8 @@
 
 - [Validate HTML for Bugs](https://validator.w3.org)
 - [Compare Code Checker](https://www.diffchecker.com)
+- [UIFaces](https://www.uifaces.co)
+- [Unsplash](https://unsplash.com)
 
 ## code snippets
 
@@ -117,9 +119,19 @@ _can nest within another_
 - live server extension
 
 ### Units of measurment
-* px - pixels
+* rem - default 16px unless set 
+* max-width - will adjust to viewport 
 * vh - viewport height e.g. `100vh` = 100% of viewport height
+* vw
 * % - percentage of parent element
+* px - pixels - not advised to use 
+
+```css
+html {
+  /* SETS default REM to 10px and allows users to change font sizes */
+  font-size: 62.5%;
+}
+```
 
 # Fonts 
 
@@ -822,6 +834,35 @@ FONT SIZE SYSTEM (px)
    - Sidebar
    - Multi-column/ magazine
    - Asymmetry/ Experimental
+
+
+# Responive Design 
+* must be set from the very beginning 
+* design technique to make website adjust its layout and visual style to any possible screen size (window or viewport)
+* makes usable on all devices - desktops, tablets, phones
+* set of best practices, not a seperate technology 
+
+## Design Ingredients 
+* Fluid Layouts
+   - allow webpage to adapt to current viewport width (or even height)
+   - use % (or vh / vw) unit instead of px for elements that should adapt to viewport (usually layout)
+   - use max-width instead of width
+  
+* Responive Units
+  - use rem unit instead of px for most lengths 
+  - to make it easy to scale the entire layout down (or up) automatically
+  - helpful trick: setting 1rem to 10px for easy calculations
+
+* Flexible Images
+  - by default, images do not scale to the viewport 
+  - always use % for image dimensions, together with the max-width property 
+  
+* Media Queries
+  - to change CSS styles on certain viewport widths (different widths on different devices) (called breakpoints)
+
+**start with Desktop design then use media queries to shrink design to smaller screens**
+
+**more modern approaches work from Mobile First design then scale up to desktop**
 
 
 # Designing A Complete Website
