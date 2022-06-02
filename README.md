@@ -788,34 +788,34 @@ FONT SIZE SYSTEM (px)
 
 2. Components
    - Breadcrumbs
-   - Pagination
+   - [Pagination](./Components/04-pagination.html)
    - Alert and status bars
    - Statistics
    - Gallery
    - Feature Box
    - Preview and profile cards
-   - Accordion - [Element](/Components/01-accordion.html)
+   - [Accordion](/Components/01-accordion.html)
    - Tabs
-   - Carousel [Element](./Components/02-carousel.html)
+   - [Carousel](./Components/02-carousel.html)
    - Customer testimonals
    - Customer logos
    - Featured-in logos
    - Steps
    - Forms
-   - Tables [Element](./Components/03-table.html)
+   - [Tables](./Components/03-table.html)
    - Pricing tables
    - Modal windows
 
 3. Section Components
    - Navigation 
-   - Hero Section 
+   - [Hero Section](./Components/05-hero.html) 
    - Footer
    - Call-to-action section
    - Feature row
 
 4. Layout Patterns
    - Row of boxes or cards
-   - Grid of boxes or cards
+   - [Grid of boxes or cards](./Components/06-app-layout.html)
    - Z-pattern
    - F-pattern
    - Single Column
@@ -824,15 +824,15 @@ FONT SIZE SYSTEM (px)
    - Asymmetry/ Experimental
 
 
-# Designing A Complete Site
+# Designing A Complete Website
 ## 7 Steps
-* [Define](#define)
-* Plan
-* Sketch
-* Design & Build
-* Test & Optimize
-* Launch
-* Maintain & Update 
+1. [Define](#define)
+2. [Plan](#plan)
+3. [Sketch](#sketch)
+4. [Design & Build](#design--build)
+5. [Test & Optimize](#test--optimize)
+6. [Launch](#launch)
+7. [Maintain & Update](#maintain--update) 
 
 ### Define
 * Who is the website for?  
@@ -840,4 +840,42 @@ FONT SIZE SYSTEM (px)
   1. Providing information
   2. Selling something
   3. Entertaining
+* Define a target audience - be very specific if possible
 
+### Plan
+* gather website content - text, images, videos
+* free images or provided by client
+* bigger sites: plan sitemap - what pages site needs, and how related to each other (content heirarchy)
+* plan what sections each page needs in order to convey the contents message
+* [define website personality](#website-personalities)
+
+### Sketch
+* think about what components you need and how you can use them in layout patterns
+* get ideas out of your head: sketch with pen and paper or with design software 
+* this is an iterative process: experiment with different components and layouts 
+* dont sketch everything or perfect 
+* jump between code & sketches 
+
+### Design & Build
+* use decisions, content, and sketches - design in browser for testing & prototyping 
+* design layout and components from sketch - design actual visual styles
+* create design based off selected website personality, design guidelines & inspiration
+* use clients branding for design decisions when you can 
+
+### Test & Optimize
+* make sure works in all major browers (chrome, firefox, safari, edge)
+* test on actual mobile devices, not just in dev tools
+* optimize all images, dimension & file size - compress
+* fix simple accesiblity problems (e.g. color contrast issues)
+* run the [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) performance test in Chrome DevTools and try to fix reported issues
+* think about Search Engine Optimization (SEO)
+
+### Launch
+* once its all perfect - Launch 
+* upload to hosting platform (countless platforms: e.g. [Netlify](https://www.netlify.com))
+* choose and buy a Domain Name -memorable and easy to write 
+
+### Maintain & Update
+* keep the webiste content updated over time -if for client, monthly maintenance contract 
+* install analytics software such as [Google Analytics](https://analytics.google.com/analytics/web/#/p294168974/reports/intelligenthome) or [Fathom](https://usefathom.com) - may inform you of user information to make future changes in the site structure and content
+* a blog that is updated regularly is a good way to keep users coming back, and is also good for SEO
