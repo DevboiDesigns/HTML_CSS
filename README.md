@@ -1,13 +1,18 @@
 # HTML
 
-- `index.html` - first page
+
 - `! + Enter` - template doc
-
-
 - [Validate HTML for Bugs](https://validator.w3.org)
 - [Compare Code Checker](https://www.diffchecker.com)
 - [UIFaces](https://www.uifaces.co)
 - [Unsplash](https://unsplash.com)
+- [Tint & Shade Generator](https://maketintsandshades.com/) - enter primary color
+- [Type Scale Tool](https://type-scale.com)
+- [Google Fonts](https://fonts.google.com)
+- [Open Colors](https://yeun.github.io/open-color/)
+- [Icons](https://heroicons.com)
+- [Coolers](https://coolors.co/) - all things color & more / color scheme generator 
+- [Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)
 
 ## code snippets
 
@@ -223,6 +228,8 @@ _usage_
 ### Classes
 
 **more common to uses classes than IDs**
+
+**generally just have a class for every element, best practice, scalable**
 
 - `<p class="related-author">` on html element
 
@@ -601,6 +608,8 @@ h2::after {
 
 [Code Snippets](./Layouts/css-grid.html)
 
+* nothing wrong with just using CSS grid for everything
+
 #### Terminology
 * `display: grid`
 * grid container
@@ -736,7 +745,7 @@ FONT SIZE SYSTEM (px)
 
 ## Icons
 
-* [Hero Icons](https://heroicons.com)
+* [Icons](https://heroicons.com)
 * designed ideal at `width: 24px;`
 
 
