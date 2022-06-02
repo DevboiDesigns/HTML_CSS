@@ -24,7 +24,9 @@ _comment_
 - `<thead>` - table head
 - `<tbody>` - table body
 - `<th>` - table row header
-
+- `<menu>` - Menu buttons in web app - not as common
+    
+[Hero Project](./Components/05-hero.html)
 ```html
 <body>
     <header>
@@ -36,6 +38,19 @@ _comment_
     <section>
 
     </section>
+  </body>
+```
+
+[App Layout Project](./Components/06-app-layout.html)
+```html
+ <body>
+    <!-- Contains links that point to other parts of website -->
+    <nav>Nav</nav>
+    <!-- Menu buttons in web app -->
+    <menu>Menu</menu>
+    <section>Inbox</section>
+    <main>Email view</main>
+    <aside>Additional Info</aside>
   </body>
 ```
       
