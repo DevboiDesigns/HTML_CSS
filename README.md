@@ -822,3 +822,22 @@ FONT SIZE SYSTEM (px)
    - Sidebar
    - Multi-column/ magazine
    - Asymmetry/ Experimental
+
+
+# Designing A Complete Site
+## 7 Steps
+* [Define](#define)
+* Plan
+* Sketch
+* Design & Build
+* Test & Optimize
+* Launch
+* Maintain & Update 
+
+### Define
+* Who is the website for?  
+* What is the website for? - what is the purpose 
+  1. Providing information
+  2. Selling something
+  3. Entertaining
+
