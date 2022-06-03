@@ -10,7 +10,8 @@
 - [Type Scale Tool](https://type-scale.com)
 - [Google Fonts](https://fonts.google.com)
 - [Open Colors](https://yeun.github.io/open-color/)
-- [Icons](https://heroicons.com)
+- [Icons: Iconic](https://ionic.io/ionicons)
+- [Icons: Hero](https://heroicons.com)
 - [Coolers](https://coolors.co/) - all things color & more / color scheme generator 
 - [Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5)
 

@@ -147,7 +147,8 @@ body {
   border-radius: 9px;
 
   /* Customize animation on hover/ highlight of a button to be smooth */
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
 }
 
 .btn--full:link, .btn--full:visited {
@@ -172,6 +173,29 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  /* currentColor = keyowrd to get already set text color from above */
+  /* will also change border in hover:active */
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.2rem;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  /* hide border-bottom without making ui jump from removing total size */
+  border-bottom: 1px solid transparent;
+}
+
+/***************************/
+/* HELPER CLASSES */
+/***************************/
+
 .margin-right-sm {
   /* Helper class, can be applied to other elements that need margin on right */
   /* important to raise priority to highest */
@@ -179,3 +203,16 @@ body {
   margin-right: 1.6rem !important;
 }
 
+.margin-bottom-md {
+  /* Helper class */
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+   /* Helper class */
+  text-align: center !important;
+}
+
+strong {
+  font-weight: 500;
+}
