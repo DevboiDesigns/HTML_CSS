@@ -32,7 +32,7 @@ _comment_
 - `<thead>` - table head
 - `<tbody>` - table body
 - `<th>` - table row header
-- `<figure>`
+- `<figure>` for images and self contained `<figcaption>` - for supporting caption
 - `<menu>` - Menu buttons in web app - not as common
     
 [Hero Project](./Components/05-hero.html)
