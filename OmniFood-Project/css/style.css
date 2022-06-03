@@ -502,9 +502,6 @@
 
   /* Gradient: background-image no matter the element applied too */
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-
-  /* temp */
-  height: 50rem;
 }
 
 .cta-text-box {
@@ -520,7 +517,7 @@
 .cta-text {
   font-size: 1.8rem;
   line-height: 1.8;
-  margin-bottom: 2.8rem;
+  margin-bottom: 4.8rem;
 }
 
 .cta-image-box {
@@ -539,4 +536,39 @@
   grid-template-columns: 1fr 1fr;
   column-gap: 3.2rem;
   row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  /* forms you must specifty inheriting font family */
+  color: inherit;
+  font-family: inherit;
+
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10);
+}
+
+
+/* STYLE Placeholder text on form inputs */
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+
+/* RESET focus state  */
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem hsla(27, 83%, 95%, 0.5);
 }
